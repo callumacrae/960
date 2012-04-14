@@ -8,13 +8,14 @@
 
 .row {
 	width: 940px;
+	overflow: auto;
 
 	[data-cols] {
 		float: left;
-		padding-right: @gridGutterWidth;
+		margin-right: @gridGutterWidth;
 		
 		&:last-child {
-			padding-right: 0;
+			margin-right: 0;
 		}
 	}
 	
