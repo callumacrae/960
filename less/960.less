@@ -1,0 +1,68 @@
+// Configuration
+@gridColWidth: 60px;
+@gridGutterWidth: 20px;
+
+.width(@cols) {
+	width: (@gridColWidth + @gridGutterWidth) * (@cols - 1) + @gridColWidth;
+}
+
+.row {
+	width: 940px;
+
+	[data-cols] {
+		float: left;
+		padding-right: @gridGutterWidth;
+		
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+	
+	[data-cols="1"] {
+		.width(1);
+	}
+	
+	[data-cols="2"] {
+		.width(2);
+	}
+	
+	[data-cols="3"] {
+		.width(3);
+	}
+	
+	[data-cols="4"] {
+		.width(4);
+	}
+	
+	[data-cols="5"] {
+		.width(5);
+	}
+	
+	[data-cols="6"] {
+		.width(6);
+	}
+	
+	[data-cols="7"] {
+		.width(7);
+	}
+	
+	[data-cols="8"] {
+		.width(8);
+	}
+	
+	[data-cols="9"] {
+		.width(9);
+	}
+	
+	[data-cols="10"] {
+		.width(10);
+	}
+	
+	[data-cols="11"] {
+		.width(11);
+	}
+	
+	[data-cols="12"] {
+		.width(12);
+	}
+}
