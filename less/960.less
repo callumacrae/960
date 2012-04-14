@@ -19,6 +19,10 @@
 		(~'[data-cols="@{cols}"]') {
 			width: (@gridColWidth + @gridGutterWidth) * (@cols - 1) + @gridColWidth;
 		}
+		
+		(~'[data-offset="`@{cols} - 1`"]') {
+			margin-left: (@gridColWidth + @gridGutterWidth) * (@cols - 1);
+		}
 		.div(@cols - 1);
 	}
 	.div (0) {}
