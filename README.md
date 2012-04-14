@@ -1,6 +1,6 @@
 # callumacrae/960 #
 
-callumacrae/960 is a very simple implimentation of the 960 grid system, seen in the Bootstrap and 960.gs frameworks, in LESS.
+callumacrae/960 is a very simple implementation of the 960 grid system, seen in the Bootstrap and 960.gs frameworks, in LESS.
 
 ## Importing it into your project ##
 
